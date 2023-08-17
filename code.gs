@@ -26,7 +26,7 @@ function doMail(name, email, sub, body) {
 }
 
 function doSheets(name, email, sub, body) {
-  let url = "https://docs.google.com/spreadsheets/d/1xnINy6Rc9vAjxHRTkvrMX-l7NfkRKPgszEoaVnN5mKY/edit#gid=0";
+  let url = "TABLO ADRESİ";
   let ss = SpreadsheetApp.openByUrl(url);
   let s = ss.getSheetByName("GeriBildirimler");
   s.appendRow([String(name), String(email), String(sub), String(body)]);
