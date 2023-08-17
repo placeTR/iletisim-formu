@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      html {
+          scroll-behavior: smooth;
+      }
+
+      body.dark {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background-color: #000;
+          color: #fff;
+      }
+
+      body.light {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          background-color: #fff;
+          color: #000;
+      }
+
+      header {
+          position: sticky;
+          top: 8px;
+          left: 8px;
+          right: 8px;
+          z-index: 100;
+      }
+
+      .top-bar {
+          background-color: #ff4500;
+          border: 3px solid #ff4500;
+          color: #fff;
+          text-align: center;
+          font-size: 50px;
+          border-radius: 15px 15px 0 0;
+      }
+
+      .top-bar p {
+          color: black;
+          font-size: 20px;
+          font-weight: 100;
+      }
+
+      .horizontal-menu {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          z-index: 1000;
+          right: 8px;
+          left: 8px;
+          position: sticky;
+          overflow: hidden;
+          position: -webkit-sticky;
+          top: 0;
+          background-color: #000;
+          border: 3px solid #ff4500;
+          display: flex;
+          justify-content: center;
+          border-radius: 0 0 15px 15px;
+      }
+
+      .horizontal-menu a {
+          text-decoration: none;
+          color: #ff4500;
+          margin: 10px;
+          display: block;
+      }
+
+      footer {
+          position: fixed;
+          color: #ff4500;
+          background-color: #000;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          font-size: small;
+          padding: 7px;
+          font-size: large;
+      }
+
+      a {
+          color: #ff4500;
+      }
+
+      img {
+          height: 150px;
+          transition: 0.2s;
+      }
+
+      img:hover {
+          transition: 0.2s;
+          cursor: pointer;
+          height: 200px;
+      }
+
+      b {
+          color: #ff4500;
+          font-size: 50px;
+          text-align: center;
+          transition: 0.2s;
+          cursor: pointer;
+      }
+
+      b:hover {
+          letter-spacing: 5px;
+      }
+
+      #placeUn {
+          color: #009edb;
+      }
+
+      section {
+          padding: 50px 0;
+      }
+
+      ::-webkit-scrollbar {
+          width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+          background: transparent; 
+      }
+      
+      ::-webkit-scrollbar-thumb {
+          background: #ff4500; 
+          border-radius: 25px;
+          transition: 0.2s;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+          transition: 0.2s;
+          background-color: #832300;
+      }
+
+      section {
+          position: relative;
+          top: 0;
+          transition: top 0.5s quick;
+      }
+
+      .txt {
+          width: 75%;
+      }
+
+      .back-to-top {
+          z-index: 100;
+          position: fixed;
+          right: 2rem;
+          bottom: 5.5rem;
+          cursor: pointer;
+          background: #832300;
+          color: white;
+          border-radius: 50%;
+          font-size: 20px;
+          font-weight: 10000000px;
+          height: 50px;
+          width: 50px;
+      }
+
+      .hidden {
+          display: none;
+      }
+
+      input[type=submit] {
+          color: white;
+          background-color: #ff4500;
+          border-radius: 15px;
+          text-align: center;
+          width: 45%;
+          height: 35px;
+          font-size: larger;
+          cursor: pointer;
+          transition: 0.2s;
+      }
+
+      input[type=submit]:hover {
+          background-color: #832300;
+      }
+
+      input {
+          background-color: transparent;
+          border: 1px solid #ff4500;
+          border-radius: 15px;
+          text-align: center;
+          color: white;
+          height: 25px;
+          width: 50%;
+      }
+
+      textarea {
+          width: 50%;
+          background-color: transparent;
+          border: 1px solid #ff4500;
+          border-radius: 20px;
+          text-align: center;
+          color: white;
+      }
+
+      .dark ::placeholder {
+          color: white;
+      }
+
+      .light ::placeholder {
+          color: #000;
+      }
+
+      .theme {
+          z-index: 100;
+          position: fixed;
+          right: 2rem;
+          bottom: 2rem;
+          background-color: #832300;
+          border-radius: 50%;
+          height: 50px;
+          width: 50px;
+          cursor: pointer;
+          color: #fff;
+          font-size: 20px;
+      }
+
+      .light {
+          color: white;
+      }
+
+      #down {
+          z-index: 101;
+          bottom: 0px;
+          width: 100%;
+      }
+
+      .go-to-bottom {
+          z-index: 100;
+          position: fixed;
+          right: 2rem;
+          bottom: 5.5rem;
+          cursor: pointer;
+          background: #832300;
+          color: white;
+          border-radius: 50%;
+          font-size: 20px;
+          font-weight: 10000000px;
+          height: 50px;
+          width: 50px;
+      }
+
+      .close {
+          z-index: 100;
+          position: fixed;
+          right: 2rem;
+          bottom: 2rem;
+          cursor: pointer;
+          background: #832300;
+          color: white;
+          border-radius: 50%;
+          font-size: 20px;
+          font-weight: 10000000px;
+          height: 50px;
+          width: 50px;
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <b>Formunuz iletildi...</b>
+  </body>
+</html>
