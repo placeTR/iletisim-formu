@@ -1,3 +1,5 @@
+**UYARI BU DEPONUN YAPISI YANINDA DEĞİŞTİRİLECEKTİR**
+
 # Google Apps Script ile iletişim formu
 Çalışma mantığı şu; Parametreler aracılığıyla veriler Google Apps Script koduna aktarılıyor. 
 |Parametreler|Anlamları|
