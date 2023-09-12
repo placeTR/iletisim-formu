@@ -17,3 +17,5 @@ Kurulum için [Google Apps Script](https://script.google.com)'e gidin ve yeni bi
 ````
 
 **TABLO ADRESİ** yazan yere Google SpreadSheets tablonuzun url'sini yapıştırın.
+  
+Formu CSS kullanarak kişiselleştirme bilirsiniz. Varsayılan olarak placeTR sitesindeki CSS'i ekledik.
